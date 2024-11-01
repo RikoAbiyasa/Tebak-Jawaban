@@ -74,9 +74,9 @@ answerButton.addEventListener("click", () => {
     flashcardElement.classList.add("flip"); // Tambahkan kelas flip saat pengguna menjawab
 
     if (userAnswer === correctAnswer) {
-        showPopup("Kamu Cukup Pintar!", "/Kelas.png"); // Ganti dengan path gambar yang sesuai
+        showPopup("Kamu Cukup Pintar!", "Kelas.png"); // Ganti dengan path gambar yang sesuai
     } else {
-        showPopup("Sedih Amat dah Bisa Salah", "/Salah.webp"); // Ganti dengan path gambar yang sesuai
+        showPopup("Sedih Amat dah Bisa Salah", "Salah.webp"); // Ganti dengan path gambar yang sesuai
     }
 });
 
