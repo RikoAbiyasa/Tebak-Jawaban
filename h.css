@@ -152,7 +152,7 @@ body {
 .flashcard {
     width: 320px;
     height: 220px;
-    background-image: url('/Kartu.jpg');
+    background-image: url('Kartu.jpg');
     background-size: cover;
     /* Ensures the image covers the entire card */
     background-position: center;
@@ -181,7 +181,7 @@ body {
 
 /* Gaya untuk bagian depan */
 .front {
-    background-image: url('/Kartu.jpg');
+    background-image: url('Kartu.jpg');
     background-size: cover;
     /* Ensures the image covers the entire card */
     background-position: center;
